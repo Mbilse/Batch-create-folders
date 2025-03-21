@@ -16,7 +16,7 @@ def create_directories(base_path, prefix, count):
             os.makedirs(full_path)
             print(f"创建文件夹: {full_path} 成功")
         except Exception as e:
-            print(f"创建文件夹失败: {full_path}, 错误: {e}")
+            print(f"创建文件夹失败: {full_path}, 错误码: {e}")
 
 # 主程序
 if __name__ == "__main__":
